@@ -1,0 +1,36 @@
+.inputSpace {
+  width: 100%;
+  background-color: var(--White);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  padding: 1rem;
+  max-height: 14vh;
+  margin-bottom: 0.5rem 0;
+}
+
+.input {
+  width: 70%;
+  border-radius: 7px;
+  padding: 1.25rem;
+  font-size: 1rem;
+}
+
+.button {
+  height: max-content;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--Moderate-blue);
+  color: var(--White);
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.95);
+}

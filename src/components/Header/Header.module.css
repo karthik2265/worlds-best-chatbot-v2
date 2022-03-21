@@ -1,0 +1,34 @@
+.header {
+  font-family: 'Fugaz One', cursive;
+  background-color: var(--White);
+  padding: 0.5rem 1.5rem;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  height: 15vh;
+}
+
+.chatbotName {
+  font-size: 2rem;
+}
+
+.chatbotImage {
+  width: 80px;
+  height: 80px;
+  background-image: url('../../assets/michael-scott-funny-img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  border: 1px solid var(--Moderate-blue);
+  /* border: 1px solid red; */
+}
+
+@media only screen and (max-width: 500px) {
+  .chatbotImage {
+    width: 65px;
+    height: 65px;
+  }
+}

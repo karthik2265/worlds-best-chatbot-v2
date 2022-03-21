@@ -1,0 +1,47 @@
+.chatWindow {
+  margin: 1.5rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  background-color: var(--White);
+  border-radius: 6px;
+  padding: 1rem;
+  height: 58vh;
+  overflow-y: auto;
+  border-radius: 7px;
+  scroll-behavior: smooth;
+  transition: scrool 2s ease-in-out;
+}
+
+.message {
+  background-color: var(--Light-gray);
+  border-radius: 5px;
+  padding: 0.25rem;
+  width: 45%;
+  display: inline-block;
+  word-wrap: break-word;
+  height: max-content;
+  transition: all 3s;
+}
+
+.message:not(.message:last-child) {
+  margin-bottom: 2.75rem;
+}
+
+.userMessage {
+  justify-self: end;
+  border: 1px solid rgb(59, 218, 72);
+}
+
+.botMessage {
+  justify-self: start;
+  border: 1px solid blue;
+}
+
+.intro {
+  font-family: 'Fugaz One', cursive;
+  background-color: var(--Light-grayish-blue);
+  font-weight: 500;
+  align-self: center;
+  padding: 0 1rem;
+}
