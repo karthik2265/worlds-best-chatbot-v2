@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './Input.module.css'
 import { useState, useContext } from 'react'
-import MessageContext from '../../store/MessageContext'
+import MessageContext from '../store/MessageContext'
 
 const Input = () => {
   const [message, setMessage] = useState('')
@@ -32,4 +32,4 @@ const Input = () => {
   )
 }
 
-export default Input
+export { Input }

@@ -17,7 +17,7 @@
 .chatbotImage {
   width: 80px;
   height: 80px;
-  background-image: url('../../assets/michael-scott-funny-img.jpg');
+  background-image: url('../assets/michael-scott-funny-img.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;

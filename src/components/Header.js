@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './Header.module.css'
 
-const header = () => {
+const Header = () => {
   return (
     <div className={classes.header}>
       <div className={classes.chatbotImage}></div>
@@ -10,4 +10,4 @@ const header = () => {
   )
 }
 
-export default header
+export { Header }

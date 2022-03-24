@@ -1,8 +1,6 @@
 .chatWindow {
   margin: 1.5rem 0;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
   background-color: var(--White);
   border-radius: 6px;
   padding: 1rem;
@@ -16,12 +14,12 @@
 .message {
   background-color: var(--Light-gray);
   border-radius: 5px;
-  padding: 0.25rem;
-  width: 45%;
-  display: inline-block;
-  word-wrap: break-word;
+  padding: 0.5rem 0.85rem;
+  width: max-content;
   height: max-content;
-  transition: all 3s;
+  max-width: 40vw;
+  word-wrap: break-word;
+  transition: scrool 3s;
 }
 
 .message:not(.message:last-child) {
@@ -44,4 +42,5 @@
   font-weight: 500;
   align-self: center;
   padding: 0 1rem;
+  text-align: center;
 }

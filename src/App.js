@@ -1,8 +1,6 @@
 import { Fragment } from 'react'
 import './App.css'
-import Header from './components/Header/Header'
-import ChatWindow from './components/ChatWindow/ChatWindow'
-import Input from './components/Input/Input'
+import { ChatWindow, Header, Input } from './components'
 import { MessageContextProvider } from './store/MessageContext'
 
 function App() {

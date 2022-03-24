@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext, useRef, useEffect } from 'react'
-import MessageContext from '../../store/MessageContext'
+import MessageContext from '../store/MessageContext'
 import { Fragment } from 'react'
 import classes from './ChatWindow.module.css'
 
@@ -43,4 +43,4 @@ const ChatWindow = () => {
   )
 }
 
-export default ChatWindow
+export { ChatWindow }
